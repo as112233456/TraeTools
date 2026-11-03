@@ -1,9 +1,9 @@
 name: Trae Daily Checkin
 
 on:
-  schedule:
-    # 北京时间每天 08:00（UTC 00:00）
-    - cron: "0 0 * * *"
+  # 定时触发已关闭（2026-11-03）。如需恢复每日签到，取消注释以下两行。
+  # schedule:
+  #   - cron: "0 0 * * *"
   workflow_dispatch: {}
 
 permissions:
